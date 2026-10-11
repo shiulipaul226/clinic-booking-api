@@ -1,0 +1,6 @@
+app:
+  seed-demo-data: false   # tests create their own data; the admin user is still seeded
+
+clinic:
+  reminder:
+    enabled: false        # tests call ReminderService directly instead of waiting for the scheduler
